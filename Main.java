@@ -2,8 +2,28 @@ import java.util.Scanner;
 
 public class Main
 {
+  public statis void ceateDog(Dog inDog, String breed, String name, String color, double weight)
+  {
+    inDog.setBreed(breed);
+    inDog.setName(name);
+    inDog.setColor(color);
+    inDog.setWeight(weight);
+  }
+
   public static void main(String[] args)
   {
+    Dog d = new Dog("weiner dog", "schnitsel", "red", 1000);
+    myDog = new Dog();
+
+
+    Dog dog1 = new Dog();
+    Dog dog2 = new Dog("terrier", "max", "white", 5)
+    Dog dog3 = new Dog("morkie", "mochi", "brown", 10)
+
+
+
+
+
     // Uncomment and complete the code below to test your Plane class
     /* Delete this line to uncomment code **************************
     Scanner sc = new Scanner(System.in);
